@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-greeting(gets.strip)
+name = gets.strip
+
+greeting(name)
